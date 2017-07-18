@@ -63,3 +63,19 @@ Gradients are of linear and radial gradient types
 A path is a pattern for pen to follow
 Circles can be drawn with arc method
 
+==============================================
+S.O.L.I.D. Principles
+SOLID principles should be visible at the highest level,MVC grameworks should not be visible at the highest level, They should hide the details in the architecture designframeworks are teh abstractions of architecure design and their details should be hidden,Application layers should be boundary separated from external details such as frameworks, database systems and should be treated as plugins,
+High level principles should be dependent on details and details should be dependent on high level principles aka Dependency inversion principle
+Good architecture practises to defer the decisions as long as possible.
+Rigidity means a system hard to change
+Fragility: One change in one module makes other related modules to misbehave.
+The dependencies should be managed independently and isolate them.
+If the components in a system are not eaily reusable for oither modules purpose then the system is immobile OR rigid.
+Viscosity: if the system is taking long time to test then teh system is considered as viscous.
+Complexity: This happend mainly because of ancipatory elements. This can be avoided by maintaining the comprehensive suits of tests which also leads to simple design, maintainable code, 
+Dependency Inversion prevents the design from dependent on details.
+the Single Responsibility principlethe Open closed principlethe Liskov substition principlethe Interface segregationthe Dependency Inversion principle
+The principles of CohesionThe release-reuse Equivalency PrincipleThe Common Closure PrincipleThe Common Reuse Principle
+Component Coupling PrinciplesThe Acyclic Dependencies principleThe Stable Dependencies principleThe Stable Abstractions principle
+====================
